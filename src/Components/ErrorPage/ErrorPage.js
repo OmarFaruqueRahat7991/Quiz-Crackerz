@@ -20,14 +20,15 @@ const ErrorPage = () => {
               </span>
             </div>
             <h5 className="text-gray-300 font-semibold -mr-10 -mt-3">
-              Page not found
+              Page Not Found
             </h5>
             <p className="text-gray-100 mt-2 mb-6">
-              we are sorry, but the page you requested was not found
+              We are sorry, but the page you requested was not found.
             </p>
-            <a className="bg-green-400  px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-gray-50 rounded-full hover:shadow-lg">
-              Go to <Link className="home-link" to='./'>Home</Link>
-            </a>
+            Go to <Link className="home-link" to='./'>Home</Link>
+            {/* <a className="bg-green-400  px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-gray-50 rounded-full hover:shadow-lg">
+              
+            </a> */}
           </div>
         </div>
       </div>

@@ -1,3 +1,17 @@
 .active{
     color: rgba(0, 0, 255, 0.517);
 }
+.header{
+    background-color: rgba(182, 176, 176, 0.427);
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.animation{
+    width: 450px;
+    height: 400px;
+    margin-top: -100px;
+    margin-right: 50px;
+}

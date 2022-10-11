@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+
+
+
 
 const Home = () => {
-    return (
-        <div>
-            <h1 className="text-3xl font-bold underline">This Is Home</h1>
-        </div>
-    );
+  return (
+    <div>
+        
+    </div>
+  );
 };
 
 export default Home;
+
+

@@ -8,6 +8,6 @@
     text-shadow: -8px 0 0 rgb(102 123 242);
 }
 .home-link{
-    color: green;
+    text-decoration: underline;
 
 }

@@ -3,6 +3,7 @@ import Main from '../../Layouts/Main';
 import Blogs from '../Blogs/Blogs';
 import ErrorPage from '../ErrorPage/ErrorPage';
 import Home from '../Home/Home';
+import Quiz from '../Quiz/Quiz';
 import Statistics from '../Statistics/Statistics';
 import Topics from '../Topics/Topics';
 
@@ -13,10 +14,6 @@ export const router = createBrowserRouter([
       element: <Main></Main>,
       children: [
         {
-          path: '/',
-          element: <Home></Home>,
-        },
-        {
           path: '/home',
           element: <Home></Home>,
         },
@@ -26,6 +23,12 @@ export const router = createBrowserRouter([
             return fetch('https://openapi.programming-hero.com/api/quiz')
           },
           element: <Topics></Topics>,
+          children: [
+            {
+                path:'./quiz',
+                element: <Quiz></Quiz>
+            }
+          ]
         },
         {
           path: '/statistics',
