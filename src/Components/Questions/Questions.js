@@ -10,7 +10,7 @@ const Questions = ({ eachquiz }) => {
   const handleViewRightAnswer = (correctAnswer) => {
     toast.error(correctAnswer, {
       position: "top-center",
-      autoClose: 5000,
+      autoClose: 1000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
