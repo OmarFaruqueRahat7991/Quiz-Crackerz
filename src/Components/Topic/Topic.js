@@ -11,6 +11,7 @@ const Topic = ({ topic }) => {
         <h1 className="text-3xl font-bold">{name}</h1>
         <Link to={`/topic/${id}`} className="btn-quiz">Start Quiz</Link>
       </div>
+      
     </div>
   );
 };

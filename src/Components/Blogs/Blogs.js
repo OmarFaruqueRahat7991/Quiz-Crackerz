@@ -6,16 +6,7 @@ const Blogs = () => {
         <div className="mb-10 border-t border-b divide-y">
           <div className="grid py-8 sm:grid-cols-4">
             <div className="mb-4 sm:mb-0">
-              <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  aria-label="Category"
-                >
-                  Books
-                </a>
-                <p className="text-gray-600">5 Jan 2020</p>
-              </div>
+              
             </div>
             <div className="sm:col-span-3 lg:col-span-2">
               <div className="mb-3">
@@ -25,29 +16,18 @@ const Blogs = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                 >
                   <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
-                    Tell them I hate them
+                    What is the purpose of React Router?
                   </p>
                 </a>
               </div>
               <p className="text-gray-700">
-                Well, the way they make shows is, they make one show. That show's
-                called a pilot. Then they show that show to the people who make
-                shows.
+              ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.
               </p>
             </div>
           </div>
           <div className="grid py-8 sm:grid-cols-4">
             <div className="mb-4 sm:mb-0">
-              <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  aria-label="Category"
-                >
-                  Inspiration
-                </a>
-                <p className="text-gray-600">15 Sep 2020</p>
-              </div>
+              
             </div>
             <div className="sm:col-span-3 lg:col-span-2">
               <div className="mb-3">
@@ -57,28 +37,18 @@ const Blogs = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                 >
                   <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
-                    A flower in my green garden
+                    How does Context API works?
                   </p>
                 </a>
               </div>
               <p className="text-gray-700">
-                Chase ball of string eat plants, meow, and throw up because I ate
-                plants going to catch the red dot today going.
+              Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+              In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme) that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.
               </p>
             </div>
           </div>
           <div className="grid py-8 sm:grid-cols-4">
             <div className="mb-4 sm:mb-0">
-              <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  aria-label="Category"
-                >
-                  Detective
-                </a>
-                <p className="text-gray-600">28 Dec 2020</p>
-              </div>
             </div>
             <div className="sm:col-span-3 lg:col-span-2">
               <div className="mb-3">
@@ -88,13 +58,13 @@ const Blogs = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                 >
                   <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
-                    We never had the love we deserve
+                   What is useRef hook?
                   </p>
                 </a>
               </div>
               <p className="text-gray-700">
-                Sportacus andrew weatherall goose Refined gentlemen super mario
-                des lynam alpha trion zap.
+              useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
+              The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
               </p>
             </div>
           </div>

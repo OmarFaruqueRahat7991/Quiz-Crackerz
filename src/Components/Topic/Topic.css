@@ -13,11 +13,11 @@
   background-color: rgba(128, 128, 128, 0.223);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.btn-quiz {
+.btn-quiz{
   font-size: 20px;
-  background-color: rgba(70, 46, 46, 0.394);
+  background-color: rgba(70, 46, 46, 0.248);
 }
-.btn-quiz:hover {
+.btn-quiz:hover{
   background-color: rgba(195, 164, 164, 0.714);
 }
 
