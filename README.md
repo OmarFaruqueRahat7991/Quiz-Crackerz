@@ -7,6 +7,6 @@
 
 
 
-#Code Link:
+#Code Link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-OmarFaruqueRahat7991
 
-#Live Site Link:
+#Live Site Link: https://quiz-mania-with-react.netlify.app/
