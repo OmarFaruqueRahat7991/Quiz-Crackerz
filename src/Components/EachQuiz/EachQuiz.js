@@ -20,6 +20,8 @@ const EachQuiz = ({ option , correctAnswer }) => {
   };
 
 
+
+
   return (
     <div>
       <div>
